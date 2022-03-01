@@ -1,19 +1,32 @@
 ---
 layout: page
-title: Welcome to Lagrange!
+title: About
 permalink: /about
+youtubeId: 5bdX5i0nAWw
 ---
 
-Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
+{% include youtubeplayer.html id=page.youtubeId %}
 
-### Getting Started
+Together with fellow researchers at [Mila (the Québec AI Institute)](https://groups.google.com/g/music_reading_group){:target="_blank"} and the [Vector Institute](https://vectorinstitute.ai/){:target="_blank"}, we have the pleasure of inviting you to join the **Music + AI Reading Group**. Our reading group gathers **every Friday at 2pm Eastern Time**. 
 
-[Getting Started]({{ site.github.url }}{% post_url 2015-10-10-getting-started %}): getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
+Our topics of interest cover (beware : the list is not exhaustive !) :
+* 🎹 Music Generation
+* 🧠 Music Understanding
+* 📇 Music Recommendation
+* 🗣 Source Separation and Instrument Recognition
+* 🎛 Acoustics
+* 🗿 Digital Humanities ...
+* 🙌 ... and more (we are waiting for you :]) !
 
-### Example Content
+Our purpose is to build an interdisciplinary forum of researchers, students and professors alike, across industry and academia, working at the **intersection of Music and Machine Learning**. During each meeting, **a speaker presents a research paper of their choice during 45’, leaving 15 minutes for questions and discussion**. The purpose of the reading group is to :
+* Gather a **group of Music+AI/HCI/others people** to share their research, build collaborations, and meet peer students. We are not constrained to any specific research directions, and all people are welcome to contribute.
+* People **share research ideas** and **brainstorm** with others.
+* Researchers not actively working on music-related topics but interested in the field can join and keep up with the latest research in the area, sharing their thoughts and bringing in their own backgrounds.
 
-[Text and Formatting]({{ site.github.url }}{% post_url 2014-01-01-text-formatting-examples %})
+👥 To get notified of our upcoming meetings, please consider joining our [Google Group](https://groups.google.com/g/music_reading_group){:target="_blank"}. You'll be notified every week of any relevant information regarding the **Music + AI Reading Group** @ *Mila x Vector*
 
-### Questions?
+📡 We use Bluejeans for our online meetings. [Here](https://bluejeans.com/293917810/2127){:target="_blank"} is the link we'll use every week.
 
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new).
+🎥 Please check our [Youtube Channel](https://www.youtube.com/channel/UCdrzCFRsIFGw2fiItAk5_Og){:target="_blank"} to find **recordings** of our past meetings, and don't forget to **subscribe** to be notified of our latest recordings !
+
+🙏 Finally, if you would like to **contribute** and **give a talk about your own research**, feel free to fill in this [spreadsheet](https://docs.google.com/spreadsheets/d/1skb83P8I30XHmjnmyEbPAboy3Lrtavt_jHrD-9Q5U44/edit?usp=sharing){:target="_blank"} in the slot of your choice !
