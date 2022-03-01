@@ -21,9 +21,5 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'French ML Reading Group'
-description:	       "by MVA students"
+description:	       'by MVA students'
 author:              'Hugo Sonnery'
-
-# RSS 2.0 can be used instead of Atom by uncommenting following two lines
-#feed:
-#  path: rss-feed.xml

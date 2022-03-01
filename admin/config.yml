@@ -1,0 +1,35 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update
+  site_domain: excitingtimes.github.io/french-ml-reading-group/
+  repo: french-ml-reading-group
+
+media_folder: "assets/img/" # Media files will be stored in the repo under img
+
+collections:
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    folder: "_posts/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Title", name: "title", widget: "string", default: "Episode 1 : Hello world"}
+      - {label: "Paper URL", name: "paper_url", widget: "string", default: "Episode 1 : Hello world"}
+      - {label: "Paper ArXiv Code", name: "paper_arxiv_code", widget: "string", default: "Episode 1 : Hello world"}
+      - {label: "Author name", name: "author_name", widget: "string", default: "Episode 1 : Hello world"}
+      - {label: "Author", name: "author", widget: "string", default: " and Hugo Sonnery"}
+      - {label: "Categories", name: "categories", widget: "string", default: "Paper presentations"}
+      - {label: "Tags", name: "tags", widget: "list", default: "Music generation"}
+      - {label: "Image", name: "image", widget: "image", default: "hello-world.png"}
+      - {label: "Author picture", name: "author_picture", widget: "image", default: "sample-author.jpeg"}
+      - {label: "Illustration", name: "illustration", widget: "image", default: "hello-world.png"}
+      - {label: "Body", name: "body", widget: "markdown", default=""}
+      - {label: "Youtube ID", name: "youtubeId", widget: "string", default: ""}
+      - {label: "Personal Website", name: "personal_website", widget: "string", default: ""}
+      - {label: "Laboratory Website", name: "laboratory_website", widget: "string", default: ""}
+      - {label: "Scholar Profile", name: "scholar_profile", widget: "string", default: ""}
+      - {label: "Slides URL", name: "slides_url", widget: "string", default: ""}
+      - {label: "Speaker Bio", name: "speaker_bio", widget: "markdown", default: ""}
+      - {label: "Abstract", name: "abstract", widget: "markdown", default: ""}
+      - {label: "Supplement", name: "supplement", widget: "markdown", default: ""}
